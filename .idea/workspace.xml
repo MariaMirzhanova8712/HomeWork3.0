@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ad06da3-f2ea-4588-8fa1-ed1e5b3a2df6" name="Changes" comment="additional tasks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Greeting.java" afterDir="false" />
-    </list>
+    <list default="true" id="9ad06da3-f2ea-4588-8fa1-ed1e5b3a2df6" name="Changes" comment="subject to comments" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666887629141</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="subject to comments">
+      <created>1666979559786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666979559786</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +106,7 @@
     </ignored-roots>
     <MESSAGE value="отправка приветствия" />
     <MESSAGE value="additional tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="additional tasks" />
+    <MESSAGE value="subject to comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="subject to comments" />
   </component>
 </project>
