@@ -1,35 +1,37 @@
 public class Greeting {
+
     public static void main(String[] args) {
         System.out.println("Hello World я ${username}");
-        System.out.println("Площадь квадрата со стороной 2,5 равна "+squareArea(2.5));
-        square(2.5);
-        square2(2.5);
+        System.out.println("Площадь квадрата со стороной 2,5 равна "+ squareOfSquareVersion_1(2.5));
+        squareOfSquareVersion_2(2.5);
+        squareOfSquareVersion_3(2.5);
         circleArea(10);
         triangleArea(3,4,5);
         triangleArea(1,2,5);
     }
 
     //Создать метод который будет считать площадь квадрата с произвольными (установленными вами) сторонами:
-    public static double squareArea(double a){
-        double plosadSquare = a*a;
-        return plosadSquare;
+    public static double squareOfSquareVersion_1(double a){
+        double squareOfSquare = a*a;
+        return squareOfSquare;
     }
 
-    public static void square(double a){
-        double plosadSquare = a*a;
-        System.out.println("Площадь квадрата со стороной "+ a +" равна " + plosadSquare);
+
+    public static void squareOfSquareVersion_2(double a){
+        double  squareOfSquare = a*a;
+        System.out.println("Площадь квадрата со стороной "+ a +" равна " +  squareOfSquare);
     }
 
-    public static void square2(double a){
+    public static void squareOfSquareVersion_3(double a){
 
-        System.out.println("Площадь квадрата со стороной "+ a +" равна " + squareArea(a));
+        System.out.println("Площадь квадрата со стороной "+ a +" равна " + squareOfSquareVersion_1(a));
     }
 
     //Создать метод который будет считать площадь круга c произвольным радиусом:
     public static double circleArea(double r){
-        double plosadCircle = Math.PI * r * r;
-        System.out.println("Площадь круга с радиусом " + r + " равна " + plosadCircle);
-        return plosadCircle;
+        double squareCircle = Math.PI * r * r;
+        System.out.println("Площадь круга с радиусом " + r + " равна " + squareCircle);
+        return squareCircle;
     }
     //Создать метод который будет считать площадь треугольника произвольными (установленными вами) сторонами
     public static void triangleArea(double a, double b, double c){
