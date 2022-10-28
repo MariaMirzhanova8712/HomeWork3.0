@@ -1,5 +1,5 @@
 public class Greeting {
-    public double squareOfSquare;
+
     public static void main(String[] args) {
         System.out.println("Hello World я ${username}");
         System.out.println("Площадь квадрата со стороной 2,5 равна "+ squareOfSquareVersion_1(2.5));
