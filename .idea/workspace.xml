@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ad06da3-f2ea-4588-8fa1-ed1e5b3a2df6" name="Changes" comment="variable names have been corrected">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Greeting.java" afterDir="false" />
-    </list>
+    <list default="true" id="9ad06da3-f2ea-4588-8fa1-ed1e5b3a2df6" name="Changes" comment="the public modifier is an error" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666982845064</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="the public modifier is an error">
+      <created>1666985574107</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666985574108</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +130,7 @@
     <MESSAGE value="subject to comments" />
     <MESSAGE value="subject to comments. modificator" />
     <MESSAGE value="variable names have been corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="variable names have been corrected" />
+    <MESSAGE value="the public modifier is an error" />
+    <option name="LAST_COMMIT_MESSAGE" value="the public modifier is an error" />
   </component>
 </project>

@@ -11,8 +11,8 @@ public class Greeting {
     }
 
     //Создать метод который будет считать площадь квадрата с произвольными (установленными вами) сторонами:
-    public double squareOfSquareVersion_1(double a){
-        public double squareOfSquare = a*a;
+    public static double squareOfSquareVersion_1(double a){
+        double squareOfSquare = a*a;
         return squareOfSquare;
     }
 
